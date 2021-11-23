@@ -1,0 +1,26 @@
+{
+  "name": "testloops",
+  "version": "1.0.0",
+  "description": "Test how long different loops take",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewvcarey1/testloops.git"
+  },
+  "keywords": [
+    "loops",
+    "typescript"
+  ],
+  "author": "Matthew Carey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewvcarey1/testloops/issues"
+  },
+  "homepage": "https://github.com/matthewvcarey1/testloops#readme",
+  "dependencies": {
+    "testloops": "file:testloops-1.0.0.tgz"
+  }
+}
