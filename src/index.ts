@@ -23,10 +23,10 @@ class Startup {
         })
         const endTime3 = new Date().getTime()
 
-        console.log (`\n\nMap Time taken: ${ endTime1 - startTime1 } ms`)
-        console.log (`\nLoop Time taken: ${ endTime2 - startTime2 } ms`)
-        console.log (`\nForEach Loop Time taken: ${ endTime3 - startTime3 } ms`)
-        console.log(doubled1.length, even1.length)
+        console.log (`\n\nArray.map Time taken: ${ endTime1 - startTime1 } ms`)
+        console.log (`\nfor const x of Array Loop Time taken: ${ endTime2 - startTime2 } ms`)
+        console.log (`\nArray.ForEach Loop Time taken: ${ endTime3 - startTime3 } ms`)
+        console.log(`\n ${doubled1.length}, ${even1.length}`)
         return 0;
     }
 }
